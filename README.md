@@ -21,15 +21,15 @@ All tests are written in **Gherkin** syntax for readability and collaboration be
 ---
 
 ## Project Structure
-cucumber-qa-demo/
-├─ features/
-│ ├─ login.feature
-│ └─ add_to_cart.feature
-├─ step_definitions/
-│ ├─ login_steps.py
-│ └─ cart_steps.py
-├─ support/
-│ └─ environment.py
-├─ requirements.txt
-├─ README.md
-└─ .github/workflows/cucumber-tests.yml (optional CI workflow)
+- **cucumber-qa-demo/**
+  - **features/**
+    - `login.feature`
+    - `add_to_cart.feature`
+  - **step_definitions/**
+    - `login_steps.py`
+    - `cart_steps.py`
+  - **support/**
+    - `environment.py`
+  - `requirements.txt`  
+  - `README.md`  
+  - `.github/workflows/cucumber-tests.yml` *(optional CI workflow)*  
